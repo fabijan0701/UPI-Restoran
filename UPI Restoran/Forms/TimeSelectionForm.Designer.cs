@@ -81,7 +81,7 @@
             this.numPocH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.numPocH.Location = new System.Drawing.Point(254, 144);
             this.numPocH.Maximum = new decimal(new int[] {
-            23,
+            22,
             0,
             0,
             0});
@@ -180,7 +180,7 @@
             this.numEndH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.numEndH.Location = new System.Drawing.Point(254, 196);
             this.numEndH.Maximum = new decimal(new int[] {
-            24,
+            23,
             0,
             0,
             0});
