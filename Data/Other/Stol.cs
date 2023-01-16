@@ -50,9 +50,9 @@ namespace UPI_Restoran.Data.Other
         /// <param name="g1"> gornja granica intervala</param>
         /// <param name="g2"> donja granica intervala</param>
         /// <returns></returns>
-        public static bool InIntervalTestMethod(int num1, int num2, int g1, int g2)
+        public static bool IntervalTestMethod(int num1, int num2, int g1, int g2)
         {
-            return !((num1 < g1 && num2 < g1) || (num1 > g2 && num2 > g2)) || (num1 >= g1 && num2<= g2);
+            return (num1 >= g1 || num2 <= g2) && (num1 <= num2);
         }
     }
 }

@@ -101,7 +101,7 @@ namespace UPI_Restoran.Data
                    "INNER JOIN KLASA K ON S.KLASA_ID = K.ID " +
                    "WHERE S.BROJ NOT IN( " +
                    "SELECT R.STOL_ID FROM REZERVACIJA R " +
-                   "WHERE NOT((R.POCETAK < '{0}' AND R.POCETAK < '{0}') OR (R.KRAJ > '{1}' AND R.KRAJ > '{1}')) OR NOT(R.POCETAK > '{0}' AND R.KRAJ < '{1}'))",
+                   "WHERE R.POCETAK >= '{0}' OR R.KRAJ <= '{1}')",
                     sqlPocetak, sqlKraj);
 
             SqlConnection connection = new SqlConnection(ConnectionString);
