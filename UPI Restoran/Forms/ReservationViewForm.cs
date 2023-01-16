@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using UPI_Restoran.Data;
 using UPI_Restoran.Data.Other;
+using System.IO;
 
 namespace UPI_Restoran.Forms
 {
@@ -41,6 +42,13 @@ namespace UPI_Restoran.Forms
 
         private void ReservationViewForm_Load(object sender, EventArgs e)
         {
+
+            if (!File.Exists("DB.mdf"))
+            {
+                MessageBox.Show("Baza nije učitana, prebacite je iz Data foldera u Debug");
+                Application.Exit();
+            }
+
             try
             {
                 DateTime t = datePicker.Value;
