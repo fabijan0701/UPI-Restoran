@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPI Restoran", "UPI Restoran\UPI Restoran.csproj", "{F41B0FE5-649F-42AC-9F54-E9DBF9654B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPI RestoranTests", "UPI RestoranTests\UPI RestoranTests.csproj", "{F4E2A087-F2A0-4A20-BD9C-2EF00CE11259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F41B0FE5-649F-42AC-9F54-E9DBF9654B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41B0FE5-649F-42AC-9F54-E9DBF9654B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41B0FE5-649F-42AC-9F54-E9DBF9654B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41B0FE5-649F-42AC-9F54-E9DBF9654B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E2A087-F2A0-4A20-BD9C-2EF00CE11259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E2A087-F2A0-4A20-BD9C-2EF00CE11259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E2A087-F2A0-4A20-BD9C-2EF00CE11259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E2A087-F2A0-4A20-BD9C-2EF00CE11259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29C0C658-BC30-42DC-B4AD-EA892308FC1D}
+	EndGlobalSection
+EndGlobal
